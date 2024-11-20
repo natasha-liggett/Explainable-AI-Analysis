@@ -1,4 +1,4 @@
-# Explainable-AI-Analysis
+# Explainable-AI-Analysis Overview
 I cannot release the data used for the analysis or the full analysis as it has not yet been published. ExplainableAI_Excerpt.Rmd contains the base of the explainable AI analysis including building and tuning the hyperparameters for the base learners, building a stack ensemble model, and conducting a basic feature importance analysis.
 
 ## Data
@@ -9,7 +9,8 @@ I cannot release the data used for the analysis or the full analysis as it has n
 - Weather data was joined to crop yield data by latitude / longitude.
 
 ### Crop data
-- Over 220k observations from locations around the world. Crop yields from multiple observations in the same location are averaged. 
+- Over 220k observations from locations around the world. Crop yields from multiple observations in the same location and year are averaged.
+- Data spans a 50 year period. Not every location is represented each year. 
 - Includes data such as crop yield and information on key dates in the growth cycle.
 - Environmental variables are averaged over key periods in the growth cycles
 
